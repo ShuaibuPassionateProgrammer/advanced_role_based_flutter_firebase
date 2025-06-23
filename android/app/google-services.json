@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "910317431242",
+    "project_id": "role-based-auth-8e95d",
+    "storage_bucket": "role-based-auth-8e95d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910317431242:android:bfdea1dc3959a4a0f70733",
+        "android_client_info": {
+          "package_name": "com.example.role_based_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_7GjA2yjUuCA5L6qxl8yiF3eZl9P42-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
