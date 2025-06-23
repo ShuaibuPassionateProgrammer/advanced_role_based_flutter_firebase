@@ -29,7 +29,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(Duration(seconds: 3), () {
+    Future.delayed(Duration(seconds: 5), () {
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => LoginScreen()));
     });
   }
@@ -67,6 +67,7 @@ class LoginScreen extends StatelessWidget {
         title: Text("Login Screen"),
         backgroundColor: Colors.blue,
         centerTitle: true,
+        elevation: 10,
       ),
       body: SingleChildScrollView(
         child: SafeArea(
@@ -76,7 +77,32 @@ class LoginScreen extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("Login to your Account")
+                  Text("Login to your Account"),
+                  SizedBox(height: 20),
+                  TextField(
+                    decoration: InputDecoration(
+                      labelText: "Email",
+                      border: OutlineInputBorder(),
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  TextField(
+                    decoration: InputDecoration(
+                      labelText: "Password",
+                      border: OutlineInputBorder()
+                    ),
+                    obscureText: true,
+                  ),
+                  SizedBox(height: 10),
+                  Expanded(
+                    child: ElevatedButton(
+                      onPressed: () {},
+                      style: ElevatedButton.styleFrom(
+                        padding: EdgeInsets.all(16),
+                      ),
+                      child: Text("Sign In"),
+                    ),
+                  ),
                 ],
               ),
             ),
