@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       title: "Role Based Auth",
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        
       ),
       home: SplashScreen(),
     );
