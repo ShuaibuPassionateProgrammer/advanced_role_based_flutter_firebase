@@ -36,6 +36,8 @@ class _SplashScreenState extends State<SplashScreen> {
                 "Role Based App",
                 style: TextStyle(fontSize: 32.0, fontWeight: FontWeight.bold),
               ),
+              SizedBox(height: 20.0),
+              CircularProgressIndicator(padding: EdgeInsets.all(32),),
             ]
           ),
         ),
