@@ -8,7 +8,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Role Based",
+      debugShowCheckedModeBanner: false,
+      title: "Role Based App",
     );
   }
 }
