@@ -7,4 +7,10 @@ class SignupScreen extends StatefulWidget {
   State<SignupScreen> createState() => _SignupScreen();
 }
 
-class _SignupScreen extends State<SignupScreen> {}
+class _SignupScreen extends State<SignupScreen> {
+
+  @override
+  Widget build(BuildContext context) {
+    //
+  }
+}
