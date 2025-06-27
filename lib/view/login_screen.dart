@@ -23,6 +23,7 @@ class _LoginScreenState extends State<LoginScreen> {
               Image.asset("assets/images/login.png"),
               SizedBox(height: 20),
               TextField(
+                controller: _usernameController,
                 decoration: InputDecoration(
                   labelText: "Email",
                   border: OutlineInputBorder(),
@@ -30,7 +31,6 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               SizedBox(height: 15),
               TextField(
-                controller: _usernameController,
                 decoration: InputDecoration(
                   labelText: "Password",
                   border: OutlineInputBorder(),
