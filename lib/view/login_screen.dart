@@ -30,7 +30,7 @@ class _LoginScreenState extends State<LoginScreen> {
               TextField(
                 decoration: InputDecoration(
                   labelText: "Password",
-                  
+                  border: OutlineInputBorder(),
                 ),
               ),
             ],
