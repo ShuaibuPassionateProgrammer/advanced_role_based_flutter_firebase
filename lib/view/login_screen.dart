@@ -50,14 +50,15 @@ class _LoginScreenState extends State<LoginScreen> {
                       fontSize: 18
                     ),
                   ),
-                  InkWell(),
-                  Text(
-                    "Signup here",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.blue,
-                      letterSpacing: -1,
+                  InkWell(
+                    child: Text(
+                      "Signup here",
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.blue,
+                        letterSpacing: -1,
+                      ),
                     ),
                   ),
                 ],
