@@ -11,6 +11,6 @@ class _SignupScreen extends State<SignupScreen> {
 
   @override
   Widget build(BuildContext context) {
-    //
+    return Scaffold();
   }
 }
