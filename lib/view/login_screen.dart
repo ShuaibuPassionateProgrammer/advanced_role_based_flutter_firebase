@@ -16,6 +16,7 @@ class _LoginScreenState extends State<LoginScreen> {
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.all(16),
+          child: Column(),
         ),
       ),
     );
