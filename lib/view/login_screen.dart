@@ -53,7 +53,8 @@ class _LoginScreenState extends State<LoginScreen> {
                   Text(
                     "Signup here",
                     style: TextStyle(
-                      fontSize: 18
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold
                     ),
                   ),
                 ],
