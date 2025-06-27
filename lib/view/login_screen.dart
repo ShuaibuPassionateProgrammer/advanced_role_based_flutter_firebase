@@ -38,6 +38,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {},
+                  child: Text("Login"),
                 ),
               ),
             ],
