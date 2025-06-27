@@ -36,6 +36,7 @@ class _LoginScreenState extends State<LoginScreen> {
               const SizedBox(height: 20),
               SizedBox(
                 width: double.infinity,
+                child: ElevatedButton(),
               ),
             ],
           ),
