@@ -43,7 +43,12 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               const SizedBox(height: 15),
               Row(
-                children: [],
+                children: [
+                  Text(
+                    "Don't have an Account? ",
+                    style: TextStyle(),
+                  ),
+                ],
               ),
             ],
           ),
