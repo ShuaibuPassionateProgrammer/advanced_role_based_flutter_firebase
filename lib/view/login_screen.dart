@@ -20,6 +20,9 @@ class _LoginScreenState extends State<LoginScreen> {
             children: [
               Image.asset("assets/images/login.png"),
               SizedBox(height: 20),
+              TextField(
+                //
+              ),
             ],
           ),
         ),
