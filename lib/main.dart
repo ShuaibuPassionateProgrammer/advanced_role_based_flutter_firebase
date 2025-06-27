@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Role Based App",
+      home: LoginScreen(),
     );
   }
 }
