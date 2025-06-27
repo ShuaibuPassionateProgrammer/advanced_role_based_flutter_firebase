@@ -7,3 +7,4 @@ class SignupScreen extends StatefulWidget {
   State<SignupScreen> createState() => _SignupScreen();
 }
 
+class _SignupScreen extends State<SignupScreen> {}
