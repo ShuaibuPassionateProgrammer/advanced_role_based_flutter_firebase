@@ -50,6 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       fontSize: 18
                     ),
                   ),
+                  InkWell(),
                   Text(
                     "Signup here",
                     style: TextStyle(
