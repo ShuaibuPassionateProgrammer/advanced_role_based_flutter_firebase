@@ -46,7 +46,9 @@ class _LoginScreenState extends State<LoginScreen> {
                 children: [
                   Text(
                     "Don't have an Account? ",
-                    style: TextStyle(),
+                    style: TextStyle(
+                      fontSize: 18
+                    ),
                   ),
                 ],
               ),
