@@ -26,6 +26,8 @@ class _LoginScreenState extends State<LoginScreen> {
                   border: OutlineInputBorder(),
                 ),
               ),
+              SizedBox(height: 15),
+              
             ],
           ),
         ),
