@@ -48,7 +48,9 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               const SizedBox(height: 15),
               DropdownButtonFormField(
-                decoration: InputDecoration(),
+                decoration: InputDecoration(
+                  labelText: "Role"
+                ),
               ),
               const SizedBox(height: 15),
               Row(
