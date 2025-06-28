@@ -15,6 +15,9 @@ class _SignupScreen extends State<SignupScreen> {
 
   final AuthService _authService = AuthService();
 
+  // signup function to handle user registration
+  void _signup() async {}
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
