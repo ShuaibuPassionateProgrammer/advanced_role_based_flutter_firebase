@@ -30,7 +30,12 @@ class AuthService {
 
   // function to handle login user
   Future<String?> login ({ required String email, required String password }) async {
-    try {}
+    try {
+      UserCredential userCredential = await _auth.signInWithEmailAndPassword(
+        email: email.trim(),
+        password: password.trim()
+      );
+    }
     catch (e) {
       return e.toString();
     }
