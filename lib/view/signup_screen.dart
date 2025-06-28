@@ -38,6 +38,7 @@ class _SignupScreen extends State<SignupScreen> {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {},
+                  child: Text("Register"),
                 ),
               ),
             ],
