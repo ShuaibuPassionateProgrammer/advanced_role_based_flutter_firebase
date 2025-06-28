@@ -15,8 +15,14 @@ class _SignupScreen extends State<SignupScreen> {
 
   final AuthService _authService = AuthService();
 
-  // signup function to handle user registration
-  void _signup() async {}
+  void _signup() async {
+    String? result await _authService.signup(
+      name: nameController.text,
+      email: emailController.text,
+      password: passwordController.text,
+      role: role,
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
