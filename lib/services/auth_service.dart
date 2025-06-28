@@ -20,6 +20,7 @@ class AuthService {
           "email": email.trim(),
           "role": role.trim()
         });
+        return null; // success : no error
     }
     catch (e) {
       return e.toString();
