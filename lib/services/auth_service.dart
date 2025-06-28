@@ -29,7 +29,5 @@ class AuthService {
   }
 
   // function to handle login user
-  Future<String?> login ({ required String email, required String password }) async {
-    
-  }
+  Future<String?> login ({ required String email, required String password }) async {}
 }
