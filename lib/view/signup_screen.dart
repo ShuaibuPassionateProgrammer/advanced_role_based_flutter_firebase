@@ -33,6 +33,7 @@ class _SignupScreen extends State<SignupScreen> {
                   border: OutlineInputBorder(),
                 ),
               ),
+              const SizedBox(height: 20),
             ],
           ),
         ),
