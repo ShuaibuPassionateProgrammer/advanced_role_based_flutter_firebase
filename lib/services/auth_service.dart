@@ -35,6 +35,11 @@ class AuthService {
         email: email.trim(),
         password: password.trim()
       );
+
+      DocumentSnapshot userDoc = await _firestore
+        .collection("users")
+        .doc(userCredential.user!.uid)
+        .get(); 
     }
     catch (e) {
       return e.toString();
