@@ -20,6 +20,7 @@ class _SignupScreen extends State<SignupScreen> {
             children: [
               Image.asset("assets/images/register.png"),
               SizedBox(height: 20),
+              TextField()
             ],
           ),
         ),
