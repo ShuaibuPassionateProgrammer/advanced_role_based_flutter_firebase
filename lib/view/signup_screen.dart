@@ -29,7 +29,8 @@ class _SignupScreen extends State<SignupScreen> {
               SizedBox(height: 15),
               TextField(
                 decoration: InputDecoration(
-                  labelText: "Password"
+                  labelText: "Password",
+                  border: OutlineInputBorder(),
                 ),
               ),
             ],
