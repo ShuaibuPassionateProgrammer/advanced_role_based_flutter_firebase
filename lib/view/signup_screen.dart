@@ -59,6 +59,7 @@ class _SignupScreen extends State<SignupScreen> {
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
+                        letterSpacing: -1
                       ),
                     ),
                   ),
