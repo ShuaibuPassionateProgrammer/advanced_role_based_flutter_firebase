@@ -56,7 +56,8 @@ class _LoginScreenState extends State<LoginScreen> {
                     value: role,
                     child: Text(role),
                   );
-                }).toList(), 
+                }).toList(),
+                onChanged: (String? newValue) {},
               ),
               const SizedBox(height: 15),
               Row(
