@@ -13,7 +13,9 @@ class _SignupScreen extends State<SignupScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: SafeArea(),
+      body: SafeArea(
+        child: Padding(),
+      ),
     );
   }
 }
