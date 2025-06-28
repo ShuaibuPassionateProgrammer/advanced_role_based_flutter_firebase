@@ -43,7 +43,7 @@ class AuthService {
       return userDoc["role"];
     }
     catch (e) {
-      return e.toString();
+      return e.toString(); 
     }
   }
 }
