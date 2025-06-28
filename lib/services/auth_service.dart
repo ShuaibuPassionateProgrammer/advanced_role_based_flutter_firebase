@@ -11,6 +11,15 @@ class AuthService {
         email: email.trim(),
         password: password.trim()
       );
+
+      await _firestore
+        .collection("users")
+        .doc(userCredential.user!.uid)
+        .set({
+          "name": name.trim(),
+          "email": email.trim(),
+          "role": role.trim()
+        });
     }
     catch (e) {
       return e.toString();
