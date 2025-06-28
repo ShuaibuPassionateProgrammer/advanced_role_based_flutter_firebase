@@ -55,7 +55,9 @@ class _SignupScreen extends State<SignupScreen> {
                     onTap: () {},
                     child: Text(
                       "Login here",
-                      style: TextStyle(),
+                      style: TextStyle(
+                        fontSize: 18,
+                      ),
                     ),
                   ),
                 ],
