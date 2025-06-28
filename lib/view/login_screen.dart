@@ -51,6 +51,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 decoration: InputDecoration(
                   labelText: "Role"
                 ),
+                items: {}
               ),
               const SizedBox(height: 15),
               Row(
