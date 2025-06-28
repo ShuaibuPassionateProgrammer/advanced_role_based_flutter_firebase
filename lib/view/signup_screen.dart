@@ -13,7 +13,7 @@ class _SignupScreen extends State<SignupScreen> {
   TextEditingController passwordController = TextEditingController();
   TextEditingController nameController = TextEditingController();
 
-  // 
+  final AuthService _authService = AuthService();
 
   @override
   Widget build(BuildContext context) {
