@@ -14,7 +14,9 @@ class _SignupScreen extends State<SignupScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        child: Padding(),
+        child: Padding(
+          padding: EdgeInsets.all(16),
+        ),
       ),
     );
   }
