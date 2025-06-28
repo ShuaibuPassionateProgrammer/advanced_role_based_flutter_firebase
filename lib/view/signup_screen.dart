@@ -17,7 +17,9 @@ class _SignupScreen extends State<SignupScreen> {
         child: Padding(
           padding: EdgeInsets.all(16),
           child: Column(
-            children: [],
+            children: [
+              Image.asset("assets/images/register.png"),
+            ],
           ),
         ),
       ),
