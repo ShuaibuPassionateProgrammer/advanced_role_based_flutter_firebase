@@ -34,7 +34,9 @@ class _SignupScreen extends State<SignupScreen> {
                 ),
               ),
               const SizedBox(height: 20), 
-              SizedBox(),
+              SizedBox(
+                width: double.infinity,
+              ),
             ],
           ),
         ),
