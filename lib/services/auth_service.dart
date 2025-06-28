@@ -5,6 +5,7 @@ class AuthService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
+  // function to handle register user
   Future<String?> signup ({ required String name, required String email, required String password, required String role }) async {
     try {
       UserCredential userCredential = await _auth.createUserWithEmailAndPassword(
@@ -23,7 +24,12 @@ class AuthService {
         return null; // success : no error
     }
     catch (e) {
-      return e.toString();
+      return e.toString(); // error : return the exception
     }
+  }
+
+  // function to handle login user
+  Future<String?> login ({ required String email, required String password }) async {
+    
   }
 }
