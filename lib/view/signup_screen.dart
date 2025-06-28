@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:role_based_auth/services/auth_service.dart";
 
 class SignupScreen extends StatefulWidget {
   const SignupScreen({super.key});
@@ -11,6 +12,8 @@ class _SignupScreen extends State<SignupScreen> {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   TextEditingController nameController = TextEditingController();
+
+  // 
 
   @override
   Widget build(BuildContext context) {
