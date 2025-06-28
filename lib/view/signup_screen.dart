@@ -8,6 +8,8 @@ class SignupScreen extends StatefulWidget {
 }
 
 class _SignupScreen extends State<SignupScreen> {
+  TextEditingController emailController = TextEditingController();
+  
 
   @override
   Widget build(BuildContext context) {
