@@ -54,7 +54,8 @@ class _SignupScreen extends State<SignupScreen> {
                   InkWell(
                     onTap: () {},
                     child: Text(
-                      "Login here"
+                      "Login here",
+                      style: TextStyle(),
                     ),
                   ),
                 ],
