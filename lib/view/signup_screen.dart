@@ -16,6 +16,7 @@ class _SignupScreen extends State<SignupScreen> {
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.all(16),
+          child: Column(),
         ),
       ),
     );
