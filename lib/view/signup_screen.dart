@@ -41,6 +41,7 @@ class _SignupScreen extends State<SignupScreen> {
                   child: Text("Register"),
                 ),
               ),
+              const SizedBox(height: 15),
             ],
           ),
         ),
