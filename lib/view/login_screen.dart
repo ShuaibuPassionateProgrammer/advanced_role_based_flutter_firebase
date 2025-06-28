@@ -47,7 +47,9 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
               ),
               const SizedBox(height: 15),
-              DropdownButtonFormField(),
+              DropdownButtonFormField(
+                decoration: InputDecoration(),
+              ),
               const SizedBox(height: 15),
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
