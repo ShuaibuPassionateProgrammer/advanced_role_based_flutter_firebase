@@ -50,6 +50,7 @@ class _SignupScreen extends State<SignupScreen> {
                     style: TextStyle(
                       fontSize: 18
                     ),
+                    InkWell(),
                   ),
                 ],
               ),
