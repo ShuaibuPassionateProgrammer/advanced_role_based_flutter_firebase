@@ -6,6 +6,9 @@ class AuthService {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
   Future<String?> signup ({ required String name, required String email, required String password, required String role }) async {
-
+    try {}
+    catch (e) {
+      return e.toString();
+    }
   }
 }
