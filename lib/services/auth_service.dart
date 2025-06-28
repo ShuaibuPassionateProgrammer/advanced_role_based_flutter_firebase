@@ -39,7 +39,8 @@ class AuthService {
       DocumentSnapshot userDoc = await _firestore
         .collection("users")
         .doc(userCredential.user!.uid)
-        .get(); 
+        .get();
+      return userDoc["role"];
     }
     catch (e) {
       return e.toString();
