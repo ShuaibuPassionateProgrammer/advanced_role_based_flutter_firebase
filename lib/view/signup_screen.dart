@@ -47,7 +47,9 @@ class _SignupScreen extends State<SignupScreen> {
                 children: [
                   Text(
                     "Already have an Account? ",
-                    style: TextStyle(),
+                    style: TextStyle(
+                      fontSize: 18
+                    ),
                   ),
                 ],
               ),
