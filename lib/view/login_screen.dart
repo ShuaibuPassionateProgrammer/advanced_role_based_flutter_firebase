@@ -51,7 +51,12 @@ class _LoginScreenState extends State<LoginScreen> {
                 decoration: InputDecoration(
                   labelText: "Role"
                 ),
-                items: {}
+                items: ["Admin", "User"].map((role) {
+                  return DropdownMenuItem(
+                    value: role,
+                    child: Text(role),
+                  );
+                }).toList(), 
               ),
               const SizedBox(height: 15),
               Row(
