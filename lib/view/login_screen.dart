@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:role_based_auth/view/signup_screen.dart";
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -56,7 +57,14 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => SignupScreen(),
+                        ),
+                      );
+                    },
                     child: Text(
                       "Signup here",
                       style: TextStyle(
