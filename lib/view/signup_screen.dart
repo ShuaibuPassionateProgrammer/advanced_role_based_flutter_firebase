@@ -21,8 +21,20 @@ class _SignupScreen extends State<SignupScreen> {
       name: nameController.text,
       email: emailController.text,
       password: passwordController.text,
-      role: role,
+      role: selectedRole,
     );
+    if(result == null) {
+      // signup successful : Navigate to login screen
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text("Signup Successful! Now Turn to Login!")),
+      );
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (_) => LoginScreen();
+        ),
+      );
+    }
   }
 
   @override
