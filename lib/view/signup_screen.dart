@@ -12,6 +12,7 @@ class _SignupScreen extends State<SignupScreen> {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   TextEditingController nameController = TextEditingController();
+  String selectedRole = "User";
 
   final AuthService _authService = AuthService();
 
