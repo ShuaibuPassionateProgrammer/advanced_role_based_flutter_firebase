@@ -21,7 +21,9 @@ class _SignupScreen extends State<SignupScreen> {
               Image.asset("assets/images/register.png"),
               SizedBox(height: 20),
               TextField(
-                decoration: InputDecoration(),
+                decoration: InputDecoration(
+                  labelText: "Email"
+                ),
               )
             ],
           ),
