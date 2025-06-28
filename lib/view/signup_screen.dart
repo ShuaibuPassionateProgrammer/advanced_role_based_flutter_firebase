@@ -51,7 +51,8 @@ class _SignupScreen extends State<SignupScreen> {
                       fontSize: 18
                     ),
                     InkWell(
-                      onTap: () {}
+                      onTap: () {},
+                      child: Text(),
                     ),
                   ),
                 ],
