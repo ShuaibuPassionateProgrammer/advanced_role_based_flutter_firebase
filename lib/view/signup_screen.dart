@@ -36,7 +36,9 @@ class _SignupScreen extends State<SignupScreen> {
               const SizedBox(height: 20), 
               SizedBox(
                 width: double.infinity,
-                child: ElevatedButton(),
+                child: ElevatedButton(
+                  onPressed: () {},
+                ),
               ),
             ],
           ),
