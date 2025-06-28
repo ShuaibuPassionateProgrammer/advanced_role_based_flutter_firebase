@@ -25,7 +25,8 @@ class _SignupScreen extends State<SignupScreen> {
                   labelText: "Email",
                   border: OutlineInputBorder(),
                 ),
-              )
+              ),
+              SizedBox(height: 15),
             ],
           ),
         ),
