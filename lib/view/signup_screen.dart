@@ -46,7 +46,8 @@ class _SignupScreen extends State<SignupScreen> {
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   Text(
-                    "Already have an Account? "
+                    "Already have an Account? ",
+                    style: TextStyle(),
                   ),
                 ],
               ),
