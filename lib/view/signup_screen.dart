@@ -37,6 +37,7 @@ class _SignupScreen extends State<SignupScreen> {
     }
     else {
       // signup failed: show the error message
+      ScaffoldMessenger.of(context).showSnackBar();
     }
   }
 
